@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Futur de la Protecció Digital</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="assets/styles/input.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .profession-bg {
+      background-color: #d8d2cb;
+      /* Color de fons per a la professió */
+    }
+  </style>
+</head>
+
+<body class="bg-white-100 font-sans">
+
+  <header class="bg-white p-6 border-b border-[#27549e]">
+    <div class=" w-800 container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <div class="logo">
+        <img src="assets/images/logo-header.png" alt="Logo" class="h-12">
+      </div>
+      <include src="nav.html"></include>
+    </div>
+  </header>
+
+  <main class="p-6 mx-auto font-principal" style="max-width: 800px;">
+    <h1 class="text-4xl text-gray-800 mb-6">El Futur de la Protecció Digital</h1>
+
+    <section class="mb-8">
+      <article class="text-gray-700 mt-4 text-sm">
+        <p>L'<b>Inseg Forum 2024</b> ha reunit els principals experts del sector digital per presentar les novetats en
+          seguretat informàtica. Durant l'esdeveniment, es van mostrar les últimes solucions per protegir les dades i
+          afrontar els reptes de la seguretat digital.</p>
+        <img src="assets/images/article.png" alt="Imatge d'exemple" class="w-1/5 rounded-lg float-right mr-4">
+        <p class="mt-4">Entre les activitats destacades, el "Cyber Escape Room" va permetre als participants resoldre
+          enigmes relacionats amb atacs cibernètics, mentre que els experts van debatre sobre la seguretat de les
+          infraestructures crítiques.</p>
+      </article>
+
+
+    </section>
+
+    <section class="mb-8 mt-12">
+      <blockquote class="p-4 bg-gray-200 border-l-4 border-gray-500 italic max-w-sm m-auto text-base text-center">
+        <p class="text-gray-700 ">"La ciberseguretat és una prioritat essencial per al futur digital."</p>
+        <footer class="mt-2 text-gray-600">Conseller de Seguretat Digital</footer>
+      </blockquote>
+    </section>
+
+    <section>
+      <div class="flex items-center">
+        <img src="assets/images/output.jpg" alt="Article Imatge" class="w-1/4 mr-4 rounded-lg">
+        <article class="text-sm">
+          <p>Aquesta fira ha estat una gran oportunitat per compartir coneixements i veure com la tecnologia s'adapta
+            als
+            reptes de la protecció digital.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white p-6 mt-8">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <img src="assets/images/logo-header.png" alt="Logo" class="h-12 mr-2">
+      <include src="xxss.html"></include>
+    </div>
+    <div class="text-center mt-4 text-sm">
+      <nav class="text-sm space-x-4">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="participants.html" class="hover:text-blue-400">Participants</a>
+        <a href="blog" class="hover:text-blue-400">Blog</a>
+      </nav>
+    </div>
+    <div class="text-center mt-4 text-sm">
+      <p>&copy; Carles Escudé</p>
+    </div>
+  </footer>
+</body>
+
+</html>
